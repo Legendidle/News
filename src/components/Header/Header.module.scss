@@ -1,0 +1,34 @@
+.header{
+    position: fixed;
+    display: block;
+    width: 100%;
+    top: 0;
+    z-index: 5;
+    padding: 20px 10px;
+    background: rgb(47,154,145);
+    background: linear-gradient(90deg, rgba(47,154,145,1) 7%, rgba(48,145,28,1) 32%, rgba(0,55,255,1) 58%, rgba(124,10,16,1) 100%); 
+    color: #fff;
+
+}
+
+nav{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+  
+    a{
+        color: rgb(12, 255, 29);
+        text-decoration: none;
+        margin-right: 24px;
+        font-weight: 700;
+        font-size: 20px;
+        transition: 0.3s ease;
+    
+        &:hover{
+            text-decoration: underline;
+            transform: scale(1.2);
+            transition: 0.3s ease;
+        }
+    }
+}
